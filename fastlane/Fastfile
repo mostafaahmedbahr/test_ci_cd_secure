@@ -1,0 +1,20 @@
+
+default_platform(:android)
+
+# To run the lane, execute the following command:
+# bundle exec fastlane firebase_distribution
+
+platform :android do
+  desc "Lane for Android Firebase App Distribution"
+  lane :test_firebase_distribution do
+    sh "flutter build apk --split-per-abi"
+    firebase_app_distribution(
+        app: "1:709219678386:android:4df1f8f5a5c80c8c1731ab",
+        firebase_cli_token: ENV["FIREBASE_CLI_TOKEN"],
+        android_artifact_type: "APK",
+        android_artifact_path: "../build/app/outputs/flutter-apk/release.apk",
+        testers: "mustafa.bahr123123@gmail.com",
+        release_notes: "new test to secure the app id and firebase cli token",
+  )
+  end
+end

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "709219678386",
+    "project_id": "e-commerce-with-tarek-elabd",
+    "storage_bucket": "e-commerce-with-tarek-elabd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709219678386:android:d8286f9200d811561731ab",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce_with_tarek_el_abd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIPTBssnMBSUswfYs6S8gGNzEYjr50usQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709219678386:android:4df1f8f5a5c80c8c1731ab",
+        "android_client_info": {
+          "package_name": "com.example.new_ci_cd_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIPTBssnMBSUswfYs6S8gGNzEYjr50usQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709219678386:android:0c74f18ed9843cd91731ab",
+        "android_client_info": {
+          "package_name": "com.example.test_fcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIPTBssnMBSUswfYs6S8gGNzEYjr50usQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
